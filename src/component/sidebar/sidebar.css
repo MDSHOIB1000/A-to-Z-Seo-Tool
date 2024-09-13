@@ -1,0 +1,62 @@
+.sidebarWrapper .side_bar{
+    width:18.75rem; 
+    height: 100vh;
+    position: fixed;
+    top: 55px;
+    left: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+    background-color: #fff;
+    scrollbar-width: thin;
+    scrollbar-color: #aab7cf transparent;
+    z-index: 111;
+}
+.sidebar-nav .nav-link{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    transition: 0.3;
+    padding: 10px 15px;
+    border-radius: 4px;
+    gap: 0.5rem;
+}
+
+.sidebar-nav .nav-link:hover{
+     color: #4154f1;
+     background: #f6f9ff;
+
+}
+.sidebar-nav .nav-link.active{
+     color: #4154f1;
+     background: #f6f9ff;
+
+}
+.side_bar ul{
+    padding: 0px;
+}
+.sidebar-nav li{
+    list-style: none;
+
+}
+.sidebar-nav  a {
+   text-decoration: none;
+
+}
+.sidebar-nav .nav-link{
+    margin-top: 8px;
+}
+
+.sidebar-nav .nav-heading{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #899bbd;
+    font-weight: 600;
+    margin: 10px 0 5px 15px;
+}
+.profile-icon{
+    color: #899bbd;
+}
+

@@ -1,0 +1,44 @@
+.main .sidebarWrapper{
+    width: 20%; flex: 0 0 20%; transition: all 0.3s ease-in-out;
+}
+.content{
+   width: 100%;
+    flex-shrink: 1;
+   
+}
+   .apexChart{
+    overflow-y: hidden;
+    flex: 1;
+    overflow-x: scroll;
+
+   }
+  /* .apexChart::-webkit-scrollbar {
+    height: 6px; 
+      Height of the scrollbar for horizontal scrolling  
+    
+} */
+   
+.apexChart::-webkit-scrollbar-track {
+    background: #13b884; /* Color of the scrollbar track */
+}
+.content-table {
+    max-height: 500px; /* Set the height you prefer */
+   
+    overflow: hidden;
+  }
+  
+  .table-container {
+    max-height: 300px; /* Adjust height for the scrollable area */
+    overflow-y: auto; /* Vertical scroll */
+    overflow-x: auto; /* Horizontal scroll for x-direction */
+    white-space: nowrap; /* Prevent table from wrapping */
+  }
+.page-content{
+    padding-top: 60px;
+    padding-left: 10px;
+}
+
+
+/* .main{
+    overflow-x: hidden !important;
+} */

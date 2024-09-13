@@ -1,0 +1,9 @@
+.container{
+    overflow: auto;
+}
+
+.formFlex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}

@@ -1,0 +1,104 @@
+.Footer{
+    background-color: #000000;
+    color: #BFBFBF;
+    margin-top: 20px;
+   
+    
+}
+.fs-20 {
+    font-size: 20px !important;
+}
+.paddingTop{
+    padding-top: 66px;
+}
+
+    .tagColor {
+        border: 1px solid #BFBFBF; /* Example style: sets the border color of the <hr> to red */
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 102px;
+    }
+    .copyRightPadLeft{
+        margin-left: 160px;
+       padding-bottom: 3rem;
+    }
+
+    @media (max-width: 576px) {
+        .Responsive{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           text-align: center;
+        }
+    
+    }
+    @media (max-width: 576px) {
+        .tagColor{
+            border: 1px solid #BFBFBF; /* Example style: sets the border color of the <hr> to red */
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 60px;
+        }
+       
+    
+    }
+    @media (max-width: 576px) {
+        .copyRightPadLeft{
+            margin-left:0px;
+            text-align: center;
+        }
+        .Footer{
+            background-color: #000000;
+            color: #BFBFBF;
+            margin-top: 6rem;
+        }
+    
+    }
+    @media (min-width: 576px) and (max-width: 768px) {
+        .Responsive{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+         }
+         .fs-20 {
+            font-size: 30px !important;
+            padding-top: 3rem;
+        }
+        .copyRightPadLeft{
+            margin-left:0px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .tagColor{
+            border: 1px solid #BFBFBF; /* Example style: sets the border color of the <hr> to red */
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 60px;
+        }
+        .Footer{
+            background-color: #000000;
+            color: #BFBFBF;
+            margin-top: 10rem;
+        }
+    }
+
+    @media (min-width: 769px) and (max-width:970px) {
+        .Responsive {
+            flex-direction: row; /* Align items horizontally on larger screens */
+            justify-content: space-around; /* Distribute space evenly between items */
+            align-items: center; /* Center items vertically */
+        }
+        .tagColor{
+            border: 1px solid #BFBFBF; /* Example style: sets the border color of the <hr> to red */
+            margin-left: 4rem;
+            margin-right: 4rem;
+            margin-top: 60px;
+        }
+        .copyRightPadLeft{
+            margin-left:0px;
+            text-align: center;
+            font-size: 20px;
+        }
+        
+    }

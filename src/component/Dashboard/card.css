@@ -1,0 +1,167 @@
+
+.card-title{
+    color: #012970;
+    font-weight: 500;
+    font-size: 18px;
+}
+.card-title span {
+    color: #899bbd;
+    font-size: 14px;
+    font-weight: 400;
+}
+ .cardCustom{
+    /* padding: 0 0px 20px 20px; */
+    width: 33.33% !important;
+     background-color: #fff;
+     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.07);
+    padding:'0 30px' !important ;
+}
+.card-filter::before {
+    content: "";
+        width: 13px;
+        height: 13px;
+        background: #fff;
+        position: absolute;
+        top: -7px;
+        right: 20px;
+        transform: rotate(45deg);
+        border-top: 1px solid #eaedf1;
+        border-left: 1px solid #eaedf1;
+  }
+
+
+  
+  .card-filter {
+    width: 170px !important;
+    position: absolute;
+    right: 0px;
+    top: 43px;
+    z-index: 1111;
+    background-color: rgba(255, 255, 255); /* Transparent white */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light border to outline */
+    border-radius: 5px; /* Optional rounded corners */
+    /* padding: 10px; */
+  }
+
+  .card-filter .card-body{
+         padding: 0px;
+         }
+  
+.Filter-title{
+    font-size: 14px;
+    color: #aab7cf;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.card-body .bullet-points {
+    list-style: none;
+    padding: 0px;
+}
+.card-body .bullet-points li{
+    display: block;
+    padding-left:15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+.card-body .bullet-points li:hover{
+     background: #f6f9ff;
+ 
+}
+
+
+
+
+.activity{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.activity-item{
+    padding: 0px 0px 20px 10px !important;
+
+}
+
+.card .card-icon {
+    color: #4154f1;
+    font-size: 32px;
+    line-height: 0;
+    flex-shrink: 0;
+    flex-grow: 0;
+    
+.card-icon-bg{
+    background-color: #f6f6fe;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    border-radius: 50% !important;
+    justify-content: center;
+    align-items: center !important;
+}
+
+
+}
+ .info-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 15px;
+}
+.info-card h6{
+    font-size: 28px;
+    color: #012970;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.activity-item .activate-label{
+    color: #888;
+    position: relative;
+    flex-shrink: 0;
+    flex-grow: 0;
+    min-width: 64px;
+
+}
+ .activity-item .activity-content {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.activity-item .activity-badge {
+    margin-top: 3px;
+    z-index: 1;
+    font-size: 16px;
+    line-height: 0;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 3px solid #fff;
+    flex-grow: 0;
+
+}
+.activity-item:first-child .activate-label::before {
+    top: 7px;
+}
+.activity-item .activate-label::before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    width: 4px;
+    top: 5px;
+    bottom: 0;
+    background-color: #eceefe;
+    height: 92px;
+}
+.activity-item .activate-label::before {
+   
+    background-color: #eceefe;
+    height: 92px;
+}
+.activity-item:last-child .activate-label::before {
+  height: 50px; /* Specific height for the last item */
+  /* padding-top: -20px !important; */
+}
+.activity-item:nth-last-child(2) .activate-label::before {
+    margin-top: -10px !important; /* Add 10px padding to the second-to-last item */
+  }
